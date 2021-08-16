@@ -17,7 +17,6 @@ class SwisstopoFragment : Fragment() {
 
         mapView = view.findViewById(R.id.map)
         mapView?.registerLifecycle(lifecycle)
-        mapView?.setBaseLayerType(SwisstopoLayerType.PIXELKARTE_FARBE)
 
         return view
     }
